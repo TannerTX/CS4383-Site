@@ -1,0 +1,59 @@
+/* === HEADING STYLE #1 === */
+.one h1 {
+    text-align: center;
+  }
+  .one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+  }
+  .one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 15px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+  }
+
+  .one h2 {
+    text-align: center;
+    margin-top: -10px;
+  }
+
+  .group_members {
+    align-items: center;
+    
+  }
+
+  .group_members h1 {
+    padding-top: 50px;
+    }
+
+  .group_members h4 {
+    text-align: center;
+    color:rgb(13, 55, 90);
+    transition: color 0.3s ease-in-out;
+  }
+
+  .group_members h4:hover {
+    color: #f00; 
+  }
+
+  #CS {
+    color:rgb(13, 55, 90);
+    transition: color 0.3s ease-in-out;
+  }
+
+  #CS:hover {
+    color: #f00; 
+  }
