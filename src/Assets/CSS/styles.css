@@ -45,6 +45,12 @@
     transition: color 0.3s ease-in-out;
   }
 
+  .group_members p {
+    text-align: center;
+    
+  }
+  
+
   .group_members h4:hover {
     color: #f00; 
   }
@@ -62,7 +68,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 1500px;
+    max-width: 1600px;
     margin: 0 auto;
   }
   
