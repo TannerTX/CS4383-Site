@@ -16,6 +16,7 @@ const img8 = require("./Assets/Images/8.JPG")
 const img9 = require("./Assets/Images/9.JPG")
 const img10 = require("./Assets/Images/10.JPG")
 const img11 = require("./Assets/Images/11.JPG")
+const img12 = require("./Assets/Images/12.JPG")
 
 const customStyles = {
   content: {
@@ -50,7 +51,7 @@ function App() {
   }
 
   const names = ["Edison Felan", "Tanner Bibb", "Mateo Rivas", "Colin Durham"]
-  const imgs = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11]
+  const imgs = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12]
 
 
 
